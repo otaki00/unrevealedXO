@@ -1,0 +1,27 @@
+
+
+.back-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    text-align: center;
+}
+
+.back-btn h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Playpen Sans', cursive;
+    text-transform: capitalize;
+}
+
+.back-btn .link {
+    text-decoration: none;
+    color: #fff;
+}

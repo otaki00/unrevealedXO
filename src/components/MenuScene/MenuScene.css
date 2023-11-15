@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.menu {
+    background-image: url('../../assets/Twinkle_Star_bg_1.svg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 4.3rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+
+
+.menu-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.menu-content p {
+    width: 50%;
+    font-family: 'N';
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-content p {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    
+}
+
+.play-button {
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #1e1d1d;
+    width: 100%;
+    height: 100%;
+}
+

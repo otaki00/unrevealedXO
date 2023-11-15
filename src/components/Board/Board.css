@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+html {
+    ---cell-width: 100px;
+    ---cell-height: 100px;
+}
+
+.board_cell{
+    width: var(---cell-width);
+    height: var(---cell-height);
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-family: 'Tilt Neon', sans-serif;
+    -webkit-box-shadow: -15px 16px 15px -4px rgba(250, 250, 250, 0.1);
+    -moz-box-shadow: -15px 16px 15px -4px rgba(250, 250, 250, 0.1);
+    box-shadow: -15px 16px 15px -4px rgba(250, 250, 250, 0.1);
+    background-color: rgb(251, 251, 251);
+}
+
+.board {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* make tic-tac-toe board based on cell width */
+    width: calc(var(---cell-width) * 3 + 7px * 2);
+    gap: 5px;
+}
+
+.game-rules {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.game-rules p {
+    font-size: 1.4rem;
+    color: #aeb0b0;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+span {
+    font-size: 1.5rem;
+    margin: 0 2px;
+}
+
+.o {
+    color: #ff2e63;
+}
+
+.x {
+    color: #00f2ff;
+}
+
+@media screen and (max-width: 768px) {
+    .game-rules {
+        width: 98%;
+    }
+
+    .game-rules p {
+        font-size: 1rem;
+    }
+    
+    span {
+        font-size: 1.1rem;
+        margin: 0 1px;
+    }
+}
